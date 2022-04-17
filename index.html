@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+
+
+
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo">
+                    <img src="./img/logonew1.png" height="150px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">אודות</a></li>
+                        <li><a href="">יצירת קשר</a></li>
+                        <li><a href="">עבודות</a></li>
+                        <li><a href="./index.html">דף הבית</a></li>
+                        <li><a href="">חשבון</a></li>
+                    </ul>
+
+
+
+
+
+                </nav>
+                <a class="nav__item" id="cart-total-count" data-count="" href="./cart.html">
+                    <img class="nav__item-icon lazyloaded" width="30px" height="30px"
+                        src="./RedStore_Img/images/cart.png"><span class="icon-text"></span></a>
+
+
+                <img src="./RedStore_Img/images/menu.png" class="menu-icon" onclick="menuroggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>התקדמות למחשבים עם מעבים של אינטל </h1><br>
+                    <p>
+                        מעבד Intel Core i7-10700, לוח אם H510, דיסק קשיח 1TB, כונן SSD 240GB, זכרון 16GB DDR4, מערכת הפעלה Windows 11 Home  
+                    </p>
+                    <a href="galery.html" class="btn">פרטים נוספים &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./img/6666.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./img/11233.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./img/22222.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./img/44444.jfif" alt="">
+                </div>
+
+            </div>
+        </div>
+      
+    </div>
+    <div class="myBtnContainer1" id="myBtnContainer" >
+        <button class="btn1 active1" onclick="filterSelection('all')"> הצג הכל</button>
+        <button class="btn1" onclick="filterSelection('shoav')"> שואב אבק</button>
+        <button class="btn1" onclick="filterSelection('clock')"> שעונים</button>
+        <button class="btn1" onclick="filterSelection('pc')"> מחשבים </button>
+    </div>
+    
+    <div class="small-container">
+        <h2 class="title">מוצרים מומלצים</h2>
+        <div class="row">
+            <div class="column1 shoav">
+                <div class="col-4">
+                    <img src="./img/1.jpg" alt="">
+                    <h4>red printed tshirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$100</p>
+                </div>
+            </div>
+            <div class="column1 clock">
+                <div class="col-4">
+                    <img src="./img/2.jpg" alt="">
+                    <h4>red printed tshirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$100</p>
+                </div>
+            </div>
+            <div class="column1 clock">
+            <div class="col-4">
+                <img src="./img/3.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+        </div>
+        <div class="column1 shoav">
+            <div class="col-4">
+                <img src="./img/1122.png" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+        </div>
+        </div>
+        <h2 class="title">lates products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/5656566.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/444.png" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/22222.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/2.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/66666.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="col-4">
+                <img src="./img//11233.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/3.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+            <div class="col-4">
+                <img src="./RedStore_Img/images/1.jpg" alt="">
+                <h4>red printed tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100</p>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./img/6666.png" class="offre-img">
+                </div>
+                <div class="col-2">
+                    <p>התקדמות למחשבים עם מעבים של אינטל</p>
+                    <h1>תהייה סקרן לא ביקורתי</h1>
+                    <small>מעבד Intel Core i7-10700, לוח אם H510, דיסק קשיח 1TB, כונן SSD 240GB, זכרון 16GB DDR4, מערכת הפעלה Windows 11 Home  
+                    </small>
+                    <a href="" class="btn">explore now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimoial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>אני רק מתחיל אבל בשביל התחלה זה מאוד טוב </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="./img/11.jpeg">
+                    <h3>zion halal</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>אני רק מתחיל אבל בשביל התחלה זה מאוד טוב </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="./img/444.png">
+                    <h3>zion halal</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>אני רק מתחיל אבל בשביל התחלה זה מאוד טוב</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="./img/11.jpeg">
+                    <h3>zion halal</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./RedStore_Img/images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="./RedStore_Img/images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="./RedStore_Img/images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="./RedStore_Img/images/logo-philips.png">
+                </div>
+                <div class="col-5">
+                    <img src="./RedStore_Img/images/logo-white.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>download our app</h3>
+                    <p>
+                        download our app for android and ios mobile phone.
+                    </p>
+                    <div class="app-logo">
+                        <img src="./RedStore_Img/images/play-store.png">
+                        <img src="./RedStore_Img/images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/123123123hhhhh.png">
+                    <p>
+                        אני רק מתחיל אבל בשביל התחלה זה מאוד טוב
+                        .
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>אודות</h3>
+                    <ul>
+                        <li> coupons</li>
+                        <li> blog post</li>
+                        <li> return policy</li>
+                        <li> join affiliate</li>
+
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>קישורים נוספים</h3>
+                    <ul>
+                        <li> facebook</li>
+                        <li> twitter</li>
+                        <li> instagrm</li>
+                        <li> youtube</li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p class="copyright"> copyright 2022 - easy tutorials</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="topFunction">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"> &#8687;</button>
+    </div>
+
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>
