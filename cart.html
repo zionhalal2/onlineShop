@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/shopti.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 
-
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Document</title>
 
@@ -50,101 +51,134 @@
         </div>
     </div>
 
-   
 
-        <div class="cmall-container cart-page">
 
-            <table>
-                    <tr>
-                        <th>product</th>
-                        <th>quantity</th>
-                        <th>subtotal</th>
-                    </tr>
-                    <tr>
-                        <div class="cart-info">
-                            <img src="./img/444.png" >
+    <div class="cmall-container cart-page">
+
+        <table>
+            <tr>
+                <th> <input type="checkbox" value="selectAll" id="ckdCheckAll"> בחר הכל</th>
+                <th>פריט</th>
+                <th>כמות</th>
+                <th>מחיר</th>
+            </tr>
+
+            <tr>
+                <div class="checkbox1">
+                    <td class="ch-1"> <input type="checkbox" class="checkBox" value="item1" id="item1"></td>
+                </div>
+
+                <td>
+                    <div class="cart-info">
+                        <img src="./RedStore_Img/images/buy-1.jpg">
                         <div>
-                        <div>
-                        <p>kjasnfjangfjl</p>
-                        <small>price 50$</small>
-                        <a href="">remove</a>
-                  
-
-                    </tr>
-                    <tb><input type="number" value="1"></tb>
-                    <tb>50$</tb>
-                </tr>
-            </div>
-        </div>
-            </table>
-
-
-        </div>
-
-
-
-
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col-1">
-                        <h3>download our app</h3>
-                        <p>
-                            download our app for android and ios mobile phone.
-                        </p>
-                        <div class="app-logo">
-                            <img src="./RedStore_Img/images/play-store.png">
-                            <img src="./RedStore_Img/images/app-store.png">
+                            <p>נעלים יפות מאוד</p>
+                            <small>100$</small>
+                            <br>
+                            <a href="">הסרה</a>
                         </div>
                     </div>
-                    <div class="footer-col-2">
-                        <img src="./RedStore_Img/images/logo-white.png">
-                        <p>
-                            אני רק מתחיל אבל בשביל התחלה זה מאוד טוב
-                            .
-                        </p>
-                    </div>
-                    <div class="footer-col-3">
-                        <h3>אודות</h3>
-                        <ul>
-                            <li> coupons</li>
-                            <li> blog post</li>
-                            <li> return policy</li>
-                            <li> join affiliate</li>
-
-                        </ul>
-                    </div>
-                    <div class="footer-col-4">
-                        <h3>קישורים נוספים</h3>
-                        <ul>
-                            <li> facebook</li>
-                            <li> twitter</li>
-                            <li> instagrm</li>
-                            <li> youtube</li>
-
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <div class="copyright">
-                    <p class="copyright"> copyright 2022 - easy tutorials</p>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>50$</td>
+            </tr>
+            <tr>
+                <div class="checkbox1">
+                    <td> <input type="checkbox" class="checkBox" value="item2" id="item2"></td>
                 </div>
 
-            </div>
+                <td>
+                    <div class="cart-info">
+                        <img src="./RedStore_Img/images/buy-1.jpg">
+                        <div>
+                            <p>נעלים יפות מאוד</p>
+                            <small>100$</small>
+                            <br>
+                            <a href="">הסרה</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>50$</td>
+            </tr>
+            <tr>
+                <div class="checkbox1">
+                    <td> <input type="checkbox" class="checkBox" value="item3" id="item3"></td>
+                </div>
+
+                <td>
+                    <div class="cart-info">
+                        <img src="./RedStore_Img/images/buy-1.jpg">
+                        <div>
+                            <p>נעלים יפות מאוד</p>
+                            <small>100$</small>
+                            <br>
+                            <a href="">הסרה</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>50$</td>
+            </tr>
+        </table>
+        <div class="total-price">
+
+            <table>
+                <tr>
+                    <td>מחיר</td>
+                    <td>200$</td>
+                </tr>
+                <tr>
+                    <td>מע"מ</td>
+                    <td>35$</td>
+                </tr>
+                <tr>
+                    <td>סה"כ</td>
+                    <td>235$</td>
+                </tr>
+
+            </table>
+
         </div>
-        <div class="topFunction">
-            <button onclick="topFunction()" id="myBtn" title="Go to top"> &#8687;</button>
+
+        <div class="btun1">
+            <input type="button" id="save_value" value="Save">
+
         </div>
-
-
-    </body>
-
-
     </div>
 
-    </div>
+   
+
+
+ <script>
+    $('#save_value').click(function () {
+        var val = [];
+        $(':checkbox:checked:not(#ckdCheckAll)').each(function (i){
+            val[i] = $(this).val();
+
+        });
+        if('#save_value')
+
+        alert(val);
+    });
+    
+
+            $(document).ready(function(){
+                $('#ckdCheckAll').click(function (){
+                   $('.checkBox').prop('checked',$(this).prop('checked'));
+                });
+
+    });
+</script> 
+
+
+
+
+
 
 </body>
+
+
 
 
 </html>
