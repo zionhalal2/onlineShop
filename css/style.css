@@ -277,6 +277,9 @@ color: black;
 ul{
     list-style-type: none;
 }
+.logo{
+    width: 100px;
+}
 .app-logo{
     margin-top: 20px;
 
@@ -311,15 +314,16 @@ ul{
 @media only screen and (max-width:800px) {
    
    nav ul{
-       position: absolute;
-       top: 70px;
-       left: 0;
-       background: radial-gradient(rgb(235, 13, 13), #0f101a);
-       width: 100%;
-       overflow: hidden;
-       transform: max-height 0.5s;
-
-   } 
+    position: absolute;
+    top: 57px;
+    background: radial-gradient(rgb(10, 2, 40), #e92907);
+    width: 100%;
+    overflow: hidden;
+    transform: max-height 0.5s;
+    height: 173px;
+    width: 237px;
+    text-align: right;
+}
    nav ul li{
        display: block;
        margin-right: 50px;
@@ -344,6 +348,9 @@ ul{
     }
     .col-2,.col-3,.col-4{
         flex-basis: 100%;
+    }
+    .logo img{
+        width: 100%;
     }
 
 }
