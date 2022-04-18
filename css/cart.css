@@ -66,13 +66,14 @@ p {
 
     nav ul {
         position: absolute;
-        top: 70px;
-        left: 0;
-        background: rgb(194, 30, 30);
+        top: 57px;
+        background: radial-gradient(rgb(10, 2, 40), #e92907);
         width: 100%;
         overflow: hidden;
         transform: max-height 0.5s;
-
+        height: 173px;
+        width: 237px;
+        text-align: right;
     }
 
     nav ul li {
