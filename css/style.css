@@ -316,13 +316,14 @@ ul{
    nav ul{
     position: absolute;
     top: 57px;
-    background: radial-gradient(rgb(10, 2, 40), #e92907);
+    box-shadow: 5px 10px;
     width: 100%;
     overflow: hidden;
     transform: max-height 0.5s;
     height: 173px;
     width: 237px;
     text-align: right;
+    background-color: rgba(163, 163, 163, 0.7);
 }
    nav ul li{
        display: block;
@@ -332,6 +333,9 @@ ul{
    }
    nav ul li a{
        color: white;
+   }
+   nav ul li:hover{
+    background: #013af7;
    }
     .menu-icon{
         display: block;
