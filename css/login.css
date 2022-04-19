@@ -1,0 +1,96 @@
+body{
+    background-color: #858585;
+
+}
+h1{
+text-align: center;
+background: radial-gradient(rgb(255, 255, 255), #201616);
+
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 8px 5px rgb(246, 247, 245);
+}
+.mb-3{
+    
+    display: grid;
+    justify-content: center;
+  
+   
+}
+
+input[type=text] {
+    box-shadow: 0px 0px 8px 5px rgb(255, 254, 254);
+    background: radial-gradient(rgb(253, 253, 253), #c7c7c7);
+    margin: 5px;
+    font-size: 16px;
+    
+   
+  }
+  input[type=password] {
+    box-shadow: 0px 0px 8px 5px rgb(255, 254, 254);
+    background: radial-gradient(rgb(253, 253, 253), #c7c7c7);
+    margin: 5px;
+    font-size: 16px;
+    margin: auto;
+  
+   
+  }
+
+  @media only screen and (max-width:800px) {
+    
+    input[type=text] {
+        font-size: small;
+ padding: 5px;
+ width: 100px;
+      }
+      input[type=password] {
+        font-size: small;
+        padding: 5px;
+        width: 100px;
+      }
+    
+    }
+h4{
+    font-size: 1.5rem;
+   text-align: center;
+    padding: 1px;
+    width: 100%;
+    
+}
+button{
+    margin: 5px;
+    /* padding: 17px; */
+    /* height: 50px; */
+    /* margin: auto; */
+    box-shadow: 0px 0px 8px 5px rgb(255 255 255 / 40%);
+    background: radial-gradient(rgb(255, 255, 255), #978282);
+    font-size: x-large;
+  }
+  .butonn {
+    /* box-shadow: 0px 0px 8px 5px rgb(255 255 255); */
+    /* background: radial-gradient(rgb(255, 255, 255), #3f3f3f); */
+    display: grid;
+    justify-content: center;
+    padding: 9px;
+    
+    margin: auto;
+}
+.contenr{
+    
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    box-shadow: 0px 0px 8px 5px rgb(230, 225, 225);
+    background: radial-gradient(rgb(252, 250, 250), #3f3f3f);
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 5px rgb(253, 253, 253);
+   
+
+}
+
+
+
+
+ 
