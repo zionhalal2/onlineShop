@@ -311,7 +311,7 @@ ul{
     margin-left: 20px;
     display: none;
 }
-.nav-2{
+.nav-img{
     display: none;
 }
 @media only screen and (max-width:800px) {
@@ -337,7 +337,7 @@ ul{
         margin-bottom: 10px;
     }
     nav ul li a {
-        color: rgb(255, 255, 255);
+        color: rgb(250, 14, 14);
         font: bold;
         
     }
@@ -345,7 +345,7 @@ ul{
     background: #013af7;
    }
    .nav-img{
-       background: #fc0000;
+    background-color: rgba(11, 15, 243, 0.35);
        position: sticky;
        top: 0px;
    }
@@ -353,8 +353,16 @@ ul{
       
         display: block;
         backdrop-filter: blur(30px);
-        background: #054ef3;
+        background: #064ef5;
         
+    }
+
+    .lazyloaded{
+       
+        background: red;
+        /* padding: 2px; */
+        margin-top: 5px;
+
     }
 }
 
