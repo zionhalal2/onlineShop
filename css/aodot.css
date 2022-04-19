@@ -373,6 +373,12 @@ ul{
              
          }
   }
+  .title1{
+    background-color: rgba(73, 255, 17, 0.35);
+     text-align: center;
+      
+       
+   }
 
 @media only screen and (max-width:600px) {
     .row {
