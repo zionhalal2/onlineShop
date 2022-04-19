@@ -88,27 +88,26 @@ p {
         margin-bottom: 10px;
     }
     nav ul li a {
-        color: rgb(243, 243, 243);
+        color: rgb(255, 255, 255);
         font: bold;
         
     }
    nav ul li:hover{
-    background: #fc0a0a;
+    background: #013af7;
    }
    .nav-img{
-
-    background-color: rgba(35, 82, 168, 0.35);
-  
+    background-color: rgba(11, 15, 243, 0.35);
        position: sticky;
        top: 0px;
+       padding: 8px;
    }
-    .menu-icon{
+   .menu-icon{
       
-        display: block;
-        backdrop-filter: blur(30px);
-        background: #064ef5;
-        
-    }
+    display: block;
+    backdrop-filter: blur(30px);
+   
+    
+}
 
     .lazyloaded{
        

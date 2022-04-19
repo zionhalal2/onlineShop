@@ -311,7 +311,7 @@ ul{
     margin-left: 20px;
     display: none;
 }
-.nav-img{
+.nav-2{
     display: none;
 }
 @media only screen and (max-width:800px) {
@@ -348,12 +348,13 @@ ul{
     background-color: rgba(11, 15, 243, 0.35);
        position: sticky;
        top: 0px;
+       padding: 8px;
    }
     .menu-icon{
       
         display: block;
         backdrop-filter: blur(30px);
-        background: #064ef5;
+       
         
     }
 
