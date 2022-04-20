@@ -314,6 +314,13 @@ ul{
 .nav-2{
     display: none;
 }
+.clock{
+    width: 120px;
+
+}
+.shoav{
+    width: 120px;
+}
 @media only screen and (max-width:800px) {
    
     nav ul{
