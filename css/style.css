@@ -264,17 +264,19 @@ color: black;
 }
 .footer-col-1{
     flex-basis: 30%;
-}
-.footer-col-2{
-    flex:1;
     text-align: center;
-    margin-bottom: 20px;
-
+}
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 47px;
+    flex-basis: 80%;
+    text-align: center;
 }
 .footer-col-3,.footer-col-4{
     flex-basis: 12%;
     text-align: center;
-
+    flex-basis: 61%;
 }
 ul{
     list-style-type: none;
@@ -306,7 +308,7 @@ ul{
    color: #ffffff;
 }
 .footer-col-2 img{
-    width: 150px;
+    width: 100px;
 }
 .menu-icon{
     width: 28px;
@@ -331,7 +333,7 @@ ul{
     .row {
         border: 1px solid red;
         margin: 5px;
-       
+        text-align: center;
         padding: 10px;
     }
     
