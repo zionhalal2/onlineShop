@@ -49,11 +49,10 @@ p {
 }
 
 .row {
-    display: flex;
+    display: table-cell;
     align-items: center;
-    /*flex-wrap: wrap;*/
+    /* flex-wrap: wrap; */
     justify-content: space-around;
-
 }
 
 .col-2 {
