@@ -318,8 +318,11 @@ ul{
     width: 120px;
 
 }
-.shoav{
+.Camera{
     width: 120px;
+}
+.dvr{
+    width: 120PX;
 }
 @media only screen and (max-width:800px) {
    
