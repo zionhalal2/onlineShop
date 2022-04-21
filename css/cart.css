@@ -88,6 +88,8 @@ p {
         background: radial-gradient(rgb(32 24 199 / 40%), #3d8d1c);
         filter: grayscale(50%);
     }
+ 
+
   .nav-2{
       display: none;
   }
