@@ -7,7 +7,16 @@ body{
     background: radial-gradient(rgb(8, 8, 8), #f7f7f7);
    
 }
-
+.logo{
+    display: flex;
+    justify-content: left;
+    width: 25%;
+}
+.logo img{
+    width:200px;
+    height: 200px;
+    filter: grayscale(20%);
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -65,7 +74,20 @@ p {
     display: none;
 }
 @media only screen and (max-width:800px) {
-
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo img{
+        width:200px;
+        height: 200px;
+        filter: grayscale(20%);
+    }
+    .header{
+        background: radial-gradient(rgb(32 24 199 / 40%), #3d8d1c);
+        filter: grayscale(50%);
+    }
   .nav-2{
       display: none;
   }

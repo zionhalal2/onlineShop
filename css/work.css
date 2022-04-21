@@ -294,7 +294,14 @@ ul{
     list-style-type: none;
 }
 .logo{
-    width: 100px;
+    display: flex;
+    justify-content: left;
+    width: 25%;
+}
+.logo img{
+    width:200px;
+    height: 200px;
+    filter: grayscale(20%);
 }
 .app-logo{
     margin-top: 20px;
@@ -451,8 +458,19 @@ ul{
     .col-2,.col-3,.col-4{
         flex-basis: 100%;
     }
-    .logo img{
+    .logo{
+        display: flex;
+        justify-content: center;
         width: 100%;
+    }
+    .logo img{
+        width:200px;
+        height: 200px;
+        filter: grayscale(20%);
+    }
+    .header{
+        background: radial-gradient(rgb(6 6 6 / 40%), #ed0404);
+        filter: grayscale(50%);
     }
     .col-31 img {
         width: 90%;

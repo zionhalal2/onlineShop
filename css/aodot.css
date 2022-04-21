@@ -278,7 +278,14 @@ ul{
     list-style-type: none;
 }
 .logo{
-    width: 100px;
+    display: flex;
+    justify-content: left;
+    width: 25%;
+}
+.logo img{
+    width:200px;
+    height: 200px;
+    filter: grayscale(20%);
 }
 .app-logo{
     margin-top: 20px;
@@ -315,6 +322,16 @@ ul{
     display: none;
 }
 @media only screen and (max-width:800px) {
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo img{
+        width:200px;
+        height: 200px;
+        filter: grayscale(20%);
+    }
    
     .nav-2{
         display: none;
@@ -390,8 +407,9 @@ ul{
     .col-2,.col-3,.col-4{
         flex-basis: 100%;
     }
-    .logo img{
-        width: 100%;
+    .header{
+        background: radial-gradient(rgb(255, 0, 0), #020101);
+        filter: grayscale(50%);
     }
 
 }
